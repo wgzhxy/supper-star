@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.jeecgframework.boot</groupId>
+    <groupId>org.supper</groupId>
     <artifactId>supper-start-parent</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
@@ -26,7 +26,7 @@
         <mysql-connector-java.version>8.0.27</mysql-connector-java.version>
         <!-- 动态数据源-->
         <dynamic-datasource-spring-boot-starter.version>3.2.0</dynamic-datasource-spring-boot-starter.version>
-        <hutool.version>5.7.10</hutool.version>
+        <hutool.version>5.7.16</hutool.version>
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
         <guava.version>30.1.1-jre</guava.version>
         <mybatis-plus.version>3.4.3.1</mybatis-plus.version>
@@ -36,9 +36,12 @@
     </properties>
 
     <modules>
-        <module>super-common</module>
-        <module>super-console</module>
-        <module>super-web</module>
+        <module>supper-basic</module>
+        <module>supper-backend</module>
+        <module>supper-web</module>
+        <module>supper-common</module>
+        <module>supper-modules</module>
+        <module>supper-report</module>
     </modules>
 
     <dependencies>
