@@ -36,11 +36,9 @@
     </properties>
 
     <modules>
-        <module>supper-core</module>
-        <module>supper-config</module>
-        <module>supper-backend</module>
-        <module>supper-frontend</module>
-        <module>super-basic</module>
+        <module>super-common</module>
+        <module>super-console</module>
+        <module>super-web</module>
     </modules>
 
     <dependencies>
